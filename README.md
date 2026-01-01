@@ -1,4 +1,3 @@
-````markdown
 # PySellAuth
 
 **PySellAuth** is a Python wrapper for the [SellAuth API](https://sellauth.com), allowing developers to manage shops, products, payments, customers, tickets, feedbacks, and more directly from Python.
