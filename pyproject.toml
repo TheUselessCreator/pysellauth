@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pysellauth"
+version = "0.1.1"
+description = "Python wrapper for the SellAuth API"
+authors = [
+    { name = "Useless", email = "bot40games2@example.com" }
+]
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+
+dependencies = [
+    "requests>=2.0.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/TheUselessCreator/pysellauth"
+Documentation = "https://github.com/TheUselessCreator/pysellauth#readme"
+Bug_Tracker = "https://github.com/TheUselessCreator/pysellauth/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
